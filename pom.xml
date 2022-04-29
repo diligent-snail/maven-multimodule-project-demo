@@ -26,6 +26,7 @@
 	<modules>
 		<module>hello-library</module>
 		<module>console-consumer</module>
+		<module>javafx-consumer</module>
 	</modules>
 
 	<build>

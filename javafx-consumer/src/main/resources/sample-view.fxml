@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.VBox?>
+<?import java.lang.Integer?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.text.Text?>
+<VBox xmlns="http://javafx.com/javafx"
+	  xmlns:fx="http://javafx.com/fxml"
+	  fx:controller="org.diligentsnail.javafxconsumer.SampleViewController"
+	  prefHeight="400.0" prefWidth="600.0" alignment="CENTER">
+
+	<fx:define>
+		<Integer fx:value="16" fx:id="PADDING"/>
+	</fx:define>
+
+	<padding>
+		<Insets top="$PADDING" left="$PADDING" right="$PADDING" bottom="$PADDING"/>
+	</padding>
+
+
+	<TextField fx:id="nameTextField" />
+
+	<Text fx:id="helloText" />
+</VBox>
