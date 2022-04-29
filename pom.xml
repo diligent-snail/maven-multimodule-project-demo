@@ -19,6 +19,8 @@
 		<maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
 		<maven-surefire-plugin.version>3.0.0-M6</maven-surefire-plugin.version>
 		<maven-failsafe-plugin.version>3.0.0-M6</maven-failsafe-plugin.version>
+
+		<junit.version>5.8.2</junit.version>
 	</properties>
 
 	<modules>
@@ -47,4 +49,14 @@
 			</plugins>
 		</pluginManagement>
 	</build>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.junit.jupiter</groupId>
+				<artifactId>junit-jupiter</artifactId>
+				<version>${junit.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 </project>
