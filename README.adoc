@@ -1,3 +1,16 @@
 = Демо многомодульного maven-проекта
 
-* Смотреть коммиты
+== Модули
+
+. link:hello-library[`hello-library`] -- библиотека с классом link:hello-library/src/main/java/org/diligentsnail/hellolibrary/Hello.java[`Hello.java`]
+. link:console-consumer/[`console-consumer`] -- консольное приложение, зависит от `hello-library`
+. link:javafx-consumer/[`javafx-consumer`] -- JavaFX приложение, зависит от `hello-library`
+
+== Коммиты
+
+Посмотрите https://github.com/diligent-snail/maven-multimodule-project-demo/commits/main[коммиты], в них мы по шагам создаём многомодульный проект
+
+== Ссылки
+
+* https://maven.apache.org/guides/mini/guide-multiple-modules.html[Guide to Working with Multiple Modules]
+
